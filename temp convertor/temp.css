@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing:border-box;
+}
+.tempname{
+    text-align: center;
+    margin: 20px;
+}
+body{
+    background-color:rgb(15, 73, 109); 
+		background: url(background.jpg);
+	
+    text-align: center;
+}
+form h3{
+    text-align: center;
+    font-size: 25px;
+}
+form h3 input{
+    width:20%;
+    border: 0;
+    outline:none;
+    background: white;
+    padding: 15px;
+    margin: 20px;
+   
+    font-size: 15px;
+    border-radius: 6px;
+    font-weight: bold;
+}
+form h3 select {
+    width:20%;
+    border: 2px;
+    outline:none;
+    background: white;
+    padding: 15px;
+    margin: 20px;
+    margin-left: 75px;
+    
+    font-size: 15px;
+    border-radius: 6px;
+    font-weight: bold;
+}
+#output{
+    margin-left: 110px;
+}
+form button{
+    width:10%;
+    border: 0;
+    outline:none;
+    background:white;
+    padding: 15px 10px;
+    margin: 20px;
+    margin-left: 75px;
+  
+    font-size: 15px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+}
+#result{
+    margin-left: 60px;
+}
+
